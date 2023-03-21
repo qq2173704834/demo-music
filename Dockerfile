@@ -21,7 +21,7 @@ ENV MYSQL_HOST 10.32.103.14
 ENV MYSQL_USER_NAME dbuser
 ENV MYSQL_PASSWORD huawei@123
 ENV DATABASE_NAME demo-music
-ENV APPLICATION_PORT 80
+ENV APPLICATION_PORT 8080
 
 # 安装依赖包，如需其他依赖包，请到alpine依赖包管理(https://pkgs.alpinelinux.org/packages?name=php8*imagick*&branch=v3.13)查找。
 RUN apk add --update --no-cache openjdk8-jre-base \
